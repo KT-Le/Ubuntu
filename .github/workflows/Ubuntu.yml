@@ -27,7 +27,7 @@ jobs:
     - name: Configure and Start Google Remote Desktop
       run: |
         DISPLAY= /opt/google/chrome-remote-desktop/start-host \
-        --code="4/0AanRRrsDfwkg3qKY1wYkOiPaVg-m5tfouywvSSLaPw6j8EYiXAZuuq_t57o7YbxRrnBdkg" \
+        --code="4/0AanRRrvwBYtkS067mAchAbpa6V_6LgiXgkdfs7Nzes4-kDC22H4GdhgAONQkR_jhf4y8dw" \
         --redirect-url="https://remotedesktop.google.com/_/oauthredirect" \
         --name=$(hostname) \
         --pin=123456 &
